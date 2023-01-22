@@ -14,5 +14,5 @@ reviews:
 shuttles:
   type: pandas.ExcelDataSet
   filepath: data/01_raw/shuttles.xlsx
-  loadargs:
+  load_args:
     engine: openpyxl
